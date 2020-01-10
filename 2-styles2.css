@@ -1,0 +1,36 @@
+.image1 {
+	width:1440px;
+	height:170px;
+	position:absolute;
+	bottom:636px;
+	left:-40px;
+}
+.image2 {
+	width:200px;
+	height:400px;
+	position:absolute;
+	bottom:0px;
+	left:120px;
+}
+.image3 {
+	width:200px;
+	height:400px;
+	position:absolute;
+	bottom:0px;
+	right:90px;
+}
+.none {
+	font-size:40px;
+	position:absolute;
+	top:200px;
+	left:250px;
+	width:1000px;
+}
+.first {
+	font-size:40px;
+	position:absolute;
+	top:500px;
+	left:480px;
+	width:1000px;
+}
+	

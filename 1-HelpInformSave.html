@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="5-script.js" defer></script>
+  <script>
+	function myFunction() {
+		alert("Thank you for sharing your story!"); 
+		window.location.reload();
+	}
+  </script>
+  <link href="1-styles.css" rel="stylesheet">
+  <title>Help-Inform-Save.</title>
+</head>
+<body>
+	<img src="Images/banner.png" class="image1" alt="help-inform-save">
+	<img src="Images/ribbon.jpg" class="image2" alt="ribbon">
+	<img src="Images/ribbon1.jpg" class="image3" alt="ribbon">
+<ul class="tabs">
+  <li data-tab-target="#home" class="active tab"><b>Home</b></li>
+  <li data-tab-target="#Submissions" class="tab"><b>Submissions</b></li>
+  <li data-tab-target="#hotlines" class="tab"><b>Hotlines</b></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" data-tab-content class="active">
+    <h2 class="NSH">National Suicide Hotline</h2>
+	<p class="number">1-800-273-8255</p> 
+   <img class="mission" src="Images/mission.png" alt="mission"> 
+   </div>
+ 
+
+ <div id="Submissions" data-tab-content>
+    <h1 class="submissions">Share Your Story</h1>
+	<p class="power">There is power in sharing your story. You can share yours below and click <a href="2-page2.html" style="color:red">here</a> to read stories from others.</p>
+	<form action = "/action_page.php" method = "get">
+        <textarea class="txtbox" rows = "5" cols = "60" name = "description">
+            Your Story Details Here...
+         </textarea><br>
+         <input class="submit" onclick="myFunction()" type = "submit" value = "submit" />
+      </form>
+  </div>
+  
+  
+  <div id="hotlines" data-tab-content>
+    <h1 class="Specific"><u>Specific Hotlines Are Listed Below:</u></h1>
+    <p class="help">For tips on how to help a friend click <a href="3-page3.html" style="color:red">here</a>.</p>
+	<img class="hotlines" src="Images/hotlines.png" alt="Hotlines">
+</div>
+
+
+<div class="wrap">
+  <div class="footer">
+    <div class="footer-links">
+  </div>
+</div>
+</div>
+</div>
+<div class="wrap clr3">
+  <div class="footer">
+    <div class="footer-about">
+	<a href="https://suicidepreventionlifeline.org/help-yourself/for-deaf-hard-of-hearing/">Deaf/Hard of Hearing</a> | 
+	<a href="https://suicidepreventionlifeline.org/help-yourself/en-espanol/">Ayuda En Español</a> | 
+	<a href="4-page4.html">Newsletter Sign-Up</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
