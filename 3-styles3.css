@@ -1,0 +1,44 @@
+.image1 {
+	width:1440px;
+	height:170px;
+	position:absolute;
+	bottom:636px;
+	left:-40px;
+}
+.image2 {
+	width:200px;
+	height:400px;
+	position:absolute;
+	bottom:0px;
+	left:120px;
+}
+.image3 {
+	width:200px;
+	height:400px;
+	position:absolute;
+	bottom:0px;
+	right:90px;
+}
+
+.help {
+	position:absolute;
+	top:400px;
+	left:470px;
+	width:500px;
+	height:400px;
+}
+
+.NSH {
+	font-size:40px;
+	position:absolute;
+	top:150px;
+	left:460px;
+	width:1000px;
+}
+.number {
+	font-size:30px; 
+	position:absolute;
+	top:200px;
+	left:570px;
+	width: 1000px;
+}
